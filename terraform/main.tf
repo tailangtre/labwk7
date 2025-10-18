@@ -138,7 +138,7 @@ resource "aws_vpc_security_group_egress_rule" "web-egress" {
 resource "aws_instance" "web" {
   count                  = 2
   ami                    = data.aws_ami.debian.id
-  instance_type          = "t2.micro"
+  instance_type          = "t3.micro"
   key_name               = "4640-wk7-key"
   vpc_security_group_ids = [aws_security_group.web.id]
   subnet_id              = aws_subnet.web.id
