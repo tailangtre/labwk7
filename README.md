@@ -1,4 +1,4 @@
-# 🧰 CIT 4640 – Intro to Ansible Lab
+# CIT 4640 – Intro to Ansible Lab
 
 This project uses **Terraform** to provision two AWS EC2 instances and **Ansible** to configure them with Nginx.
 By the end, you’ll be able to visit a web page served from both instances showing system information rendered via a Jinja2 template.
@@ -131,7 +131,7 @@ rm ~/.ssh/aws ~/.ssh/aws.pub
 
 ## Screenshot
 
-
+![Server Screenshot](./server1.png)
 
 ---
 
